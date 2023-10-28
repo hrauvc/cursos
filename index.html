@@ -1,0 +1,2163 @@
+<!doctype html>
+    <html lang="en">
+
+    <head>
+    
+        <meta charset="utf-8">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <title>Plataforma de Cursos</title>
+    
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+        <link rel="stylesheet" type="text/css" href="./assets/css/custom.css">
+    
+    </head>
+    
+    <body>
+    
+        <!-- Header -->
+        <header class="p-3 mb-3 border-bottom">
+            <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            
+            <a class="navbar-logo-link mr-4" href="#">
+
+                <img 
+                    class="navbar-logo-image" 
+                    src="https://laravelers.com/filesystem/2933.ico" 
+                    alt="Laravelers">
+
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 link-secondary">Overview</a></li>
+            <li class="nav-item dropdown">
+
+                <a 
+                    href="#" 
+                    class="nav-link px-2 link-secondary dropdown-toggle" 
+                    id="categories" 
+                    data-bs-toggle="dropdown" 
+                    aria-haspopup="true" 
+                    aria-expanded="true">
+
+                    Categorías
+
+                </a>
+                
+                <ul class="dropdown-menu" aria-labelledby="categories">
+                
+                    <li> <a class="dropdown-item" href="#">Sub-menú 1</a></li>
+                    
+                    <li> <a class="dropdown-item" href="#">Sub-menú 2</a></li>
+
+                    <li> <a class="dropdown-item" href="#">Sub-menú 3</a></li>
+                
+                </ul>
+
+            </li>
+            <li><a href="#" class="nav-link px-2 link-dark">Inventory</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Customers</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Products</a></li>
+            </ul>
+
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+
+            <div class="dropdown text-end">
+            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1" style="">
+            <li><a class="dropdown-item" href="#">New project...</a></li>
+            <li><a class="dropdown-item" href="#">Settings</a></li>
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+            </div>
+            </div>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <div class="px-4 pt-5 text-center">
+            
+            <h1 class="display-4 fw-bold">
+                ¡Bienvenido a EduSphere!
+            </h1>
+
+            <div class="col-lg-6 mx-auto">
+
+                <p class="lead mb-4">
+                    Da el siguiente paso en tu aprendizaje con EduSphere, la comunidad de aprendizaje en línea más interactivo. Ofrecemos cursos en una variedad de temas y niveles para ayudarte a alcanzar tus metas personales y profesionales.
+                </p>
+
+            </div>
+
+            <h3 class="display-4">
+                Mi progreso
+            </h3>
+
+            <!-- StepProgress -->
+            <div class="container my-5">
+                
+                <ul class="progressbar list-unstyled d-flex justify-content-between">
+
+                    <li class="step-progress text-center active">Propedéutico</li>
+
+                    <li class="step-progress text-center active">Módulo 1</li>
+
+                    <li class="step-progress text-center">Módulo 2</li>
+
+                    <li class="step-progress text-center">Examen</li>
+
+                </ul>
+
+            </div>
+        </div>
+
+        <!-- PROGRESS QUICK ACCESS -->
+        <section class="pt-0 pt-lg-5 mb-5">
+
+            <div class="container">
+            
+                <!-- Title -->
+                <div class="row mb-4">
+            
+                    <div class="col-12">
+            
+                        <h2 class="mb-0">Retoma tu progreso, Raul</h2>
+            
+                    </div>
+            
+                </div>
+
+                <div class="row g-4">
+
+                    <!-- Card START -->
+                    <div class="col-xl-8">
+
+                        <div class="card p-2 bg-transparent shadow-sm">
+                        
+                            <div class="row g-0">
+                        
+                                <div class="col-md-3">
+                        
+                                    <img 
+                                        src="https://picsum.photos/id/200/200/200" 
+                                        class="rounded-2" 
+                                        alt="course image">
+                        
+                                </div>
+                        
+                                <div class="col-md-9">
+
+                                    <div class="card-body">
+                                    
+                                        <!-- Badge and dropdown -->
+                                        <div class="d-flex justify-content-between">
+                                    
+                                            <!-- Badge -->
+                                            <div>
+                                                
+                                                <a href="#" class="badge text-bg-primary bg-opacity-75">Marketing</a>
+                                                
+                                                <a href="#" class="badge text-bg-dark bg-opacity-75">Beginner</a>
+
+                                            </div>
+
+                                            <!-- Dropdown -->
+                                            <div class="dropdown flex-shrink-0">
+
+                                                <a 
+                                                    href="#" 
+                                                    class="text-primary-hover text-secondary p-0 mb-0" 
+                                                    id="progressCourseDropdown" 
+                                                    data-bs-toggle="dropdown" 
+                                                    aria-expanded="false">
+                                                    
+                                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+
+                                                </a>
+                                                <!-- Card share action dropdown menu -->
+                                                <ul 
+                                                    class="dropdown-menu dropdown-menu-end min-w-auto" 
+                                                    aria-labelledby="progressCourseDropdown">
+
+                                                    <li><a class="dropdown-item" href="#">Continuar</a></li>
+                                                    
+                                                    <li><a class="dropdown-item" href="#">Publicar reseña</a></li>
+                                                    
+                                                    <li><a class="dropdown-item" href="#">Compartir</a></li>
+                                                    
+                                                    <li><a class="dropdown-item text-danger" href="#">Desinscribir</a></li>
+
+                                                </ul>
+
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Title -->
+                                        <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                            <a href="#" class="text-decoration-none text-reset fw-bold">
+
+                                                Curso que tomo actualmente
+
+                                            </a>
+
+                                        </h5>
+
+                                        <!-- Progress item -->
+                                        <div class="overflow-hidden mt-3">
+
+                                            <div class="d-flex justify-content-between">
+                                            
+                                                <h6 class="uppercase">Progreso general</h6>
+                                            
+                                                <span class="h6 mb-0">20%</span>
+                                            
+                                            </div>  
+                                            
+                                            <div class="progress progress-sm bg-success bg-opacity-10">
+
+                                                <div 
+                                                    class="progress-bar bg-success aos aos-init aos-animate" 
+                                                    role="progressbar" 
+                                                    data-aos="slide-right" 
+                                                    data-aos-delay="200" 
+                                                    data-aos-duration="1000" 
+                                                    data-aos-easing="ease-in-out" 
+                                                    style="width: 20%;" 
+                                                    aria-valuenow="20" 
+                                                    aria-valuemin="0" 
+                                                    aria-valuemax="100">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Button and list -->
+                                        <div class="d-flex justify-content-between align-items-center mt-3">
+                                            <!-- List -->
+                                            <ul class="nav nav-divider small mb-0">
+                                                <li class="nav-item fw-bold mx-2">Semana 2</li>
+                                                <li class="nav-item">Lección 12</li>
+                                            </ul>
+
+                                            <!-- Dropdown -->
+                                            <a href="#" class="btn btn-sm primary-soft mb-0">Continuar</a>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>  
+                    <!-- Card END -->
+
+                    <!-- Card START -->
+                    <div class="col-xl-4">
+
+                        <div class="card card-body bg-transparent border">
+
+                            <h5 class="mb-3">Siguiente actividad</h5>
+
+                            <div class="d-flex align-items-center position-relative">
+
+                                <a href="#" class="btn primary-soft btn-round mb-0">
+                                    <i class="fas fa-question-circle"></i>
+                                </a>
+                                
+                                <div class="ms-3">
+                                
+                                    <a href="#" class="d-inline-block text-truncate mb-0 h6 fw-normal stretched-link">
+                                        Exámen - Nombre del examen
+                                    </a>
+                                    <ul class="nav nav-divider small mb-0">
+                                        <li class="nav-item mx-2">12 Nov</li>
+                                        <li class="nav-item mx-2">20 pts</li>
+                                        <li class="nav-item mx-2">90 min</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card END -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Title -->
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12">
+                    <h2 class="fs-1 fw-bold">
+                        Cursos populares
+                    </h2>
+                    <p class="mb-0">
+                        Acelera tu trayectoria profesional con cursos diseñados para inspirar y desatar tu potencial.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- COURSES GRID 1 -->
+        <div class="container">
+
+            <div class="row mt-3">
+
+                <div class="col-12">
+
+                    <!-- Course Grid -->
+                    <div class="row g-4 course-grid">
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/200/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/201/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/202/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/203/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/300/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/301/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/302/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/400/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- CATEGORIES -->
+        <div class=" category-container">
+            
+            <div class="container">
+
+                <div class="row g-4">
+
+                    <!-- Category item -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+
+                        <div class="card card-body shadow rounded-3">
+                            
+                            <div class="d-flex align-items-center">
+                        
+                                <div class="icon-lg bg-purple bg-opacity-10 rounded-circle text-purple">
+                                    <i class="fas fa-tools"></i>
+                                </div>
+                        
+                                <div class="ms-3">
+                        
+                                    <h5 class="mb-0">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+                                            
+                                            Herramientas digitales
+
+                                        </a>
+
+                                    </h5>
+                        
+                                    <span>49 Cursos</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Category item -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        
+                        <div class="card card-body shadow rounded-3">
+
+                            <div class="d-flex align-items-center">
+
+                                <div class="icon-lg bg-danger bg-opacity-10 rounded-circle text-danger">
+
+                                    <i class="fas fa-heartbeat"></i>
+
+                                </div>
+
+                                <div class="ms-3">
+
+                                    <h5 class="mb-0">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+                                            
+                                            Salud & Deporte
+
+                                        </a>
+
+                                    </h5>
+
+                                    <span>45 Cursos</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Category item -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                      
+                        <div class="card card-body shadow rounded-3">
+
+                            <div class="d-flex align-items-center">
+
+                                <div class="icon-lg bg-blue bg-opacity-10 rounded-circle text-blue">
+
+                                    <i class="fas fa-photo-video"></i>
+
+                                </div>
+
+                                <div class="ms-3">
+
+                                    <h5 class="mb-0">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+                                            
+                                            Fotografía
+
+                                        </a>
+
+                                    </h5>
+
+                                    <span>58 Cursos</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Category item -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                       
+                        <div class="card card-body shadow rounded-3">
+
+                            <div class="d-flex align-items-center">
+
+                                <div class="icon-lg bg-success bg-opacity-10 rounded-circle text-success">
+
+                                    <i class="fas fa-laptop-code"></i>
+
+                                </div>
+
+                                <div class="ms-3">
+
+                                    <h5 class="mb-0">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+                                        
+                                            Desarrollo
+
+                                        </a>
+
+                                    </h5>
+
+                                    <span>88 Cursos</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Category item -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        
+                        <div class="card card-body shadow rounded-3">
+
+                            <div class="d-flex align-items-center">
+
+                                <div class="icon-lg bg-orange bg-opacity-10 rounded-circle text-orange">
+
+                                    <i class="fas fa-crop-alt"></i>
+
+                                </div>
+
+                                <div class="ms-3">
+
+                                    <h5 class="mb-0">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Diseño
+
+                                        </a>
+
+                                    </h5>
+
+                                    <span>27 Cursos</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Category item -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        
+                        <div class="card card-body shadow rounded-3">
+
+                            <div class="d-flex align-items-center">
+
+                                <div class="icon-lg bg-primary bg-opacity-10 rounded-circle text-primary">
+
+                                    <i class="fas fa-business-time"></i>
+
+                                </div>
+
+                                <div class="ms-3">
+
+                                    <h5 class="mb-0">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+                                            
+                                            Negocios
+
+                                        </a>
+
+                                    </h5>
+
+                                    <span>67 Cursos</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Category item -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        
+                        <div class="card card-body shadow rounded-3">
+
+                            <div class="d-flex align-items-center">
+
+                                <div class="icon-lg bg-info bg-opacity-10 rounded-circle text-info">
+
+                                    <i class="fas fa-music"></i>
+
+                                </div>
+
+                                <div class="ms-3">
+
+                                    <h5 class="mb-0">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+                                            
+                                            Música
+
+                                        </a>
+
+                                    </h5>
+
+                                    <span>22 Cursos</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Category item -->
+                    <div class="col-sm-6 col-lg-4 col-xl-3">
+                        
+                        <div class="card card-body shadow rounded-3">
+
+                            <div class="d-flex align-items-center">
+
+                                <div class="icon-lg bg-orange bg-opacity-10 rounded-circle text-orange">
+
+                                    <i class="fas fa-crop-alt"></i>
+
+                                </div>
+
+                                <div class="ms-3">
+
+                                    <h5 class="mb-0">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+                                            
+                                            Arte
+
+                                        </a>
+
+                                    </h5>
+
+                                    <span>44 Cursos</span>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                
+                </div>
+
+            </div>
+        </div>
+
+        <!-- COURSES GRID 2 -->
+        <div class="container">
+
+            <div class="row mt-3">
+
+                <div class="col-12">
+
+                    <!-- Course Grid -->
+                    <div class="row g-4 course-grid">
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/200/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/201/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/202/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/203/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/300/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/301/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/302/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <!-- Course card -->
+                        <div class="col-sm-6 col-lg-4 col-xl-3 course-card" data-bs-toggle="popover" data-bs-html="true" data-bs-trigger="hover" data-bs-placement="bottom" data-bs-content="">
+
+                            <div class="card shadow h-100"> <!-- Añade la clase -->
+
+                                <!-- Añade la clase -->
+                                <img 
+                                    src="https://picsum.photos/id/400/400/300" 
+                                    class="card-img-top course-image" 
+                                    alt="course image">
+
+                                <div class="card-body pb-0">
+                                
+                                    <div class="d-flex justify-content-between mb-2">
+
+                                        <a href="#" class="badge bg-success bg-opacity-10 text-success">
+
+                                            Principiante
+
+                                        </a>
+
+                                        <a href="#" class="text-danger"><i class="fas fa-heart"></i></a>
+
+                                    </div>
+
+                                    <h5 class="card-title m-0 py-2 fs-12 fw-normal">
+
+                                        <a href="#" class="text-decoration-none text-reset">
+
+                                            Nombre del curso
+
+                                        </a>
+
+                                        <!-- Añade la clase position-absolute y spinner-overlay al contenedor del spinner -->
+                                        <div class="spinner-container">
+                                            <div class="spinner-border text-primary" role="status">
+                                                <span class="sr-only">Cargando...</span>
+                                            </div>
+                                        </div>
+
+                                    </h5>
+
+                                    
+                                    <!-- Rating star -->
+                                    <ul class="list-inline mb-0">
+
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item me-0 small"><i class="fas fa-star-half-alt text-warning"></i></li>
+                                        
+                                        <li class="list-inline-item ms-2 h6 fw-light mb-0">4.5/5.0</li>
+
+                                    </ul>
+
+                                </div>
+
+                                <!-- Card footer -->
+                                <div class="pt-0 pb-3 px-4">
+
+                                    <hr>
+                                    
+                                    <div class="d-flex justify-content-between">
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="far fa-clock text-danger me-2"></i>9h 56m
+
+                                        </span>
+                                    
+                                        <span class="h6 fw-light mb-0">
+
+                                            <i class="fas fa-table text-orange me-2"></i>65 lecciones
+
+                                        </span>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Ventana modal personalizada -->
+        <div id="custom-modal" class="custom-modal d-none">
+
+            <button id="close-modal" class="close-modal-btn">&times;</button>
+            
+            <div class="modal-content">
+            
+                <iframe id="youtube-iframe" src="" frameborder="0" allowfullscreen></iframe>
+            
+                <div class="modal-body">
+                    
+                    <h5>Información del Curso</h5>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan auctor porta. Sed sit amet tincidunt orci. Quisque diam odio, sagittis eget tempor non, porta a lacus. Vestibulum eros nunc, dapibus vitae eleifend nec, aliquet ac risus. Curabitur eget feugiat arcu. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Sed ac aliquam nunc, nec tristique magna. Pellentesque a congue felis, non volutpat nunc. Nullam vulputate turpis nec diam pulvinar fringilla id vel orci. Cras eu ligula suscipit, commodo velit a, auctor arcu. In consequat leo odio, eget elementum lectus tincidunt eu. Integer luctus sit amet odio nec aliquet. Sed dictum dapibus consequat. Integer malesuada volutpat eros, eget fermentum ante bibendum at. Sed iaculis eleifend lorem, a feugiat nibh. Donec dignissim nec velit tristique molestie.
+                    </p>
+
+                    <button class="btn btn-primary">Inscribirse</button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="container mt-5">
+            
+            <footer class="py-5">
+
+                <div class="row">
+                    
+                    <div class="col-6 col-md-2 mb-3">
+                        
+                        <h5>Categorías</h5>
+                        
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Tecnología</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Ciencias</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Arte y Diseño</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Negocios</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Idiomas</a></li>
+                        </ul>
+
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Soporte</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Contáctanos</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Política de Privacidad</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Recursos</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Blog</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Webinars</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Foros</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        
+                        <!-- Formulario de suscripción -->
+                        <form>
+                            <h5>Suscríbete a nuestro boletín</h5>
+                            <p>Recibe las últimas noticias y ofertas directamente en tu correo electrónico.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden">Dirección de correo</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Dirección de correo">
+                                <button class="btn btn-primary" type="button">Suscribir</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Barra inferior del footer -->
+                <div class="d-flex flex-column flex-sm-row justify-content-between py-2 my-2 border-top">
+                    
+                    <!-- Texto de copyright -->
+                    <p>© 2023 EduSphere, Inc. Todos los derechos reservados.</p>
+
+                </div>
+                
+            </footer>
+            <!-- Fin del footer -->
+
+        </div>
+
+        <!-- FOOT SCRIPTS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/custom.js"></script>
+
+    </body>
+
+</html>
